@@ -1,0 +1,63 @@
+/*footer==============================================================*/
+.pie {
+    background-color: #1e1e1e;
+    background-size: contain;
+    background-repeat: inherit;
+    height: 140px;
+    width: 100%;
+}
+
+/* img de footer---------------------------------------------------------------*/
+
+.facebook {
+    margin: 0%;
+    height: 35px;
+}
+
+.instagram {
+    margin: 0%;
+    height: 35px;
+}
+
+.whatsapp {
+    margin: 0%;
+    height: 35px;
+}
+
+/*texto-------------------------------------------------------------------------*/
+
+.h31 {
+    margin: 0%;
+    top: 100;
+    color: azure;
+}
+
+.politica {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    justify-content: end;
+    position: relative;
+    top: -40;
+}
+
+/*grid de footer-----------------------------------------------------------------*/
+.redes {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    justify-content: first baseline;
+    position: relative;
+    top: 20px;
+    margin-top: none;
+}
+
+/*confi general----------------------------------------------------------------*/
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    padding: 0 !important;
+
+}

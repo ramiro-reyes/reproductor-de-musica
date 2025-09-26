@@ -1,0 +1,40 @@
+/*index=====================================*/
+
+/* carrusel-----------------------------*/
+#carouselExample {
+  width: 1000px !important;
+  height: 500px !important;
+  margin: 0 auto;
+}
+
+/*img de carrusel------------------------*/
+#carouselExample .carousel-inner,
+#carouselExample .carousel-item,
+#carouselExample img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/*datos de la pagina-----------------------*/
+
+.titulo {
+  display: grid;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+.texto {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+}
+
+/*video----------------------------------*/
+.video1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

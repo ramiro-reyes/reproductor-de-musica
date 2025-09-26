@@ -1,0 +1,58 @@
+/*header=======================================*/
+
+/*nav--------------------------------------------*/
+.navbar1 {
+  justify-content: center;
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 1rem 2rem;
+  position: relative;
+  border-radius: 15px;
+  z-index: 1002; 
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.nav-wrapper a:hover {
+  text-decoration: none;
+  color: #ff4d4d;
+  font-weight: 500;
+}
+
+.links {
+  font-size: 20px;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+/*logo -----------------------------------------*/
+.logo img {
+  height: 50px;
+}
+
+/* menu hamburguesa -----------------------------*/
+.hamburger {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 1003;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+

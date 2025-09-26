@@ -1,0 +1,76 @@
+/* CSS de móvil ==================================*/
+@media (max-width: 450px) {
+
+    /* Carrusel */
+    #carouselExample {
+        width: 100% !important;
+        height: 300px !important;
+        margin: 0 auto;
+    }
+
+    /* Video -----------------------------*/
+    .video1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .video1 video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Menú hamburguesa -----------------------------*/
+    .nav-wrapper {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: #1e1e1e;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        transition: right 0.3s ease-in-out;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        z-index: 1001;
+    }
+
+    .nav-wrapper.active {
+        right: 0;
+    }
+
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+    }
+
+    /* Footer -----------------------------*/
+    .redes {
+        display: grid;
+        grid-template-columns: repeat(3, 74px);
+        justify-content: center;
+        position: relative;
+        top: -8px;
+        margin-top: 0;
+    }
+
+    .politica {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        justify-content: center;
+        position: relative;
+        top: 20px;
+    }
+
+    .h31 {
+        display: grid;
+        justify-content: center;
+        margin: 0;
+        color: azure;
+    }
+}
